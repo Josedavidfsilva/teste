@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import im from "./img/logoTela 2.png";
+import im from "./img/iconSair.png";
 
 function App() {
   return (
@@ -12,12 +12,14 @@ function App() {
           </div>
             <div className='opcoes'>
               <ul>
-                <li><a href='#' className='A'> Ordem da Fila</a></li>
-                <li><a href='#' className='B'> Cardápio </a></li>
+                <li><a href='#' className='A'> Cardápio </a></li>
+                <li><a href='#' className='B'> Ordem da Fila  </a></li>
               </ul>
             </div>
           <div className='imagem'>
-              <img src='./img/logoTela 2.png'></img>
+            <a href='#'>
+              <img src={im}></img>
+            </a>
 
           </div>
         </header>

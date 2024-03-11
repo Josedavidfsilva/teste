@@ -6,7 +6,7 @@
 
 header {
   background-color: #2F2841;
-  padding: 30px;
+  padding: 2px;
   width: 100%;
   justify-content: space-around;
   display: flex;
@@ -38,17 +38,47 @@ body {
   display: inline-block;
   color: #00FF88;
   text-decoration: none;
-
+  transform: translateX(14vh);
+  -webkit-transform: translateX(14vh);
+  -moz-transform: translateX(14vh);
+  -ms-transform: translateX(14vh);
+  -o-transform: translateX(14vh);
 }
 
 .opcoes li {
   display: inline-block;
-  margin: 0 8vh;
+  margin: 0 7vh;
+  
 }
 
 .opcoes li a{
-  font-size: 28px;
+  font-size: 27px;
+  padding: 10px 12px;
 
+}
+
+.opcoes li a:hover{
+  background-color: rgb(37, 30, 51, 0.8);
+  border-radius: 3%;
+  -webkit-border-radius: 3%;
+  -moz-border-radius: 3%;
+  -ms-border-radius: 3%;
+  -o-border-radius: 3%;
+}
+
+.imagem a:hover img{
+  background-color: rgb(37, 30, 51, 0.8);
+  border-radius: 3%;
+  -webkit-border-radius: 3%;
+  -moz-border-radius: 3%;
+  -ms-border-radius: 3%;
+  -o-border-radius: 3%;
+}
+
+.imagem img{
+  margin-top: 2px;
+  padding: 0.1px;
+  width: 70%;
 }
 
 
