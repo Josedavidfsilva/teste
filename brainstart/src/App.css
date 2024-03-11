@@ -54,19 +54,32 @@ body {
 .opcoes li a{
   font-size: 27px;
   padding: 10px 12px;
-
+  transition: .2s ease;
+  border: none;
+  -webkit-transition: .2s ease;
+  -moz-transition: .2s ease;
+  -ms-transition: .2s ease;
+  -o-transition: .2s ease;
 }
 
 .opcoes li a:hover{
   background-color: rgb(37, 30, 51, 0.8);
+  transform: scale(1.05px);
+  box-shadow:  0 0 12px #201B2C, 0 0 5px #fff;
   border-radius: 3%;
   -webkit-border-radius: 3%;
   -moz-border-radius: 3%;
   -ms-border-radius: 3%;
   -o-border-radius: 3%;
+  -webkit-transform: scale(1.05px);
+  -moz-transform: scale(1.05px);
+  -ms-transform: scale(1.05px);
+  -o-transform: scale(1.05px);
 }
 
 .imagem a:hover img{
+  transform: scale(1.05px);
+  box-shadow:  0 0 12px #201B2C, 0 0 5px #fff;
   background-color: rgb(37, 30, 51, 0.8);
   border-radius: 3%;
   -webkit-border-radius: 3%;
@@ -79,6 +92,34 @@ body {
   margin-top: 2px;
   padding: 0.1px;
   width: 70%;
+  transition: .2s ease;
+  -webkit-transition: .2s ease;
+  -moz-transition: .2s ease;
+  -ms-transition: .2s ease;
+  -o-transition: .2s ease;
 }
 
+.container {
+  justify-content: space-around;
+  display: flex;
+}
+
+.container .bloco1{
+  border-radius: 5%;
+  width: 30vh;
+  height: 44vh;
+  background-color: #514869;
+  margin-top: 10%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+
+.bloco1 h3 {
+  color: #77FFC0;
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+}
 
